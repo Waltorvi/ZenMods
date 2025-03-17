@@ -130,10 +130,9 @@
                 opacity: 0.0;
                 transition: 60ms opacity ease-in calc(var(--theme-sidebar_expand_on_hover-transition_speed, 120ms) - 60ms);
                 z-index: -1;
-                background: var(--zen-main-browser-background-toolbar) !important;
+                background: var(--zen-main-browser-background) !important;
                 background-attachment: fixed !important;
                 background-size: 2000px !important;
-                backdrop-filter: blur(5px) !important;
                 border-top-right-radius: 8px !important;
                 border-bottom-right-radius: 8px !important;
             }
@@ -144,13 +143,8 @@
     #navigator-toolbox #titlebar:hover {
         width: var(--theme-sidebar_expand_on_hover-expanded_width, 300px) !important;
         box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-        background-color: var(--zen-main-browser-background-toolbar, transparent) !important;
-
-        /* Reveal background when hovering */
-        &::before {
-            opacity: 1.0 !important;
-            transition: 60ms opacity ease-out;
-        }
+        background: var(--zen-main-browser-background-toolbar) !important;
+        
 
         /* Expand new tab button within the titlebar on hover */
         #titlebar:hover #tabs-newtab-button {
