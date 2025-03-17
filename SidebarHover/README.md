@@ -3,7 +3,11 @@
 ## Description
 SidebarHover is a sleek mod for Zen Browser that introduces a dynamic sidebar which expands gracefully on hover. With customizable options for transition speed, expanded width, SidebarHover delivers both elegance and enhanced functionality. Its modular design allows users to tailor the experience to their needs, even offering a macOS-style window button option. Embrace a more refined browsing experience where efficiency meets style in a seamless, intuitive interface.
 
-#### Please note: This mod is still in development, and frankly, I might just drop it at any moment—even though I'm aware of some bugs.
+#### Please note: This mod is still in development, and frankly, I might just drop it at any moment — even though I'm aware of some bugs.
+
+## How to use
+1. Turn on ["Collapsed Toolbar"](about:preferences#zenLooks)
+2. Enjoy it
 
 ## Installation
 * if you install it not from [zen mods](https://zen-browser.app/mods/)
